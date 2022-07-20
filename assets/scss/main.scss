@@ -1,5 +1,5 @@
 @import "./normalize";
-@import "../fonts/fonts";
+@import "fonts";
 
 $primary: #2864FF;
 * {
@@ -645,7 +645,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px 20px;
     border-top: 1px solid rgba(#FFFFFF, 0.2);
 
     &__info {
