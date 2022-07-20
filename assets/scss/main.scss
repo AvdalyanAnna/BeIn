@@ -580,13 +580,15 @@ body {
   }
 
   &-top {
-    padding: 46px 30px;
+    padding: 35px 20px 25px;
     display: flex;
     justify-content: space-between;
   }
 
   &-menu {
     display: flex;
+    margin-top: 10px;
+    margin-left: 35px;
     gap: 30px;
 
     &__item {
@@ -608,6 +610,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 10px;
 
     &__title {
       font-weight: 700;
@@ -665,7 +668,7 @@ body {
   }
 
   &-mail {
-    margin-bottom: 11px;
+    margin-bottom: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -676,7 +679,7 @@ body {
     }
 
     &s {
-      margin: 18px 0 23px;
+      margin: 10px 0 15px;
       display: flex;
       flex-direction: column;
     }

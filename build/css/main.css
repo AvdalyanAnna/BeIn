@@ -809,7 +809,7 @@ body {
   .footer .wrapper {
     padding: 0; }
   .footer-top {
-    padding: 46px 30px;
+    padding: 35px 20px 25px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -817,6 +817,8 @@ body {
   .footer-menu {
     display: -ms-flexbox;
     display: flex;
+    margin-top: 10px;
+    margin-left: 35px;
     gap: 30px; }
     .footer-menu__item {
       width: 160px; }
@@ -832,7 +834,8 @@ body {
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: end;
-        align-items: flex-end; }
+        align-items: flex-end;
+    margin-top: 10px; }
     .footer-end__title {
       font-weight: 700;
       font-size: 22px;
@@ -879,7 +882,7 @@ body {
   .footer-logo {
     max-width: 102px; }
   .footer-mail {
-    margin-bottom: 11px;
+    margin-bottom: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -887,7 +890,7 @@ body {
     .footer-mail:hover {
       color: #2864FF; }
     .footer-mails {
-      margin: 18px 0 23px;
+      margin: 10px 0 15px;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
