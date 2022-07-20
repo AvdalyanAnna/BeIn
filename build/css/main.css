@@ -442,6 +442,8 @@ body {
   font-size: 18px;
   line-height: 22px;
   z-index: 3; }
+  .header .wrapper {
+    padding: 0 15px; }
   .header .btn:not(.btn-solid):hover {
     background-color: transparent; }
   .header-inner {
@@ -804,6 +806,8 @@ body {
 .footer {
   background: #0B111A;
   color: #fff; }
+  .footer .wrapper {
+    padding: 0; }
   .footer-top {
     padding: 46px 30px;
     display: -ms-flexbox;

@@ -133,6 +133,9 @@ body {
   font-size: 18px;
   line-height: 22px;
   z-index: 3;
+  .wrapper{
+    padding: 0 15px;
+  }
 
   .btn:not(.btn-solid):hover {
     background-color: transparent;
@@ -572,6 +575,9 @@ body {
 .footer {
   background: #0B111A;
   color: #fff;
+  .wrapper{
+    padding: 0 ;
+  }
 
   &-top {
     padding: 46px 30px;
