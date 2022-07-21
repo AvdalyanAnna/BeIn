@@ -133,7 +133,8 @@ body {
   font-size: 18px;
   line-height: 22px;
   z-index: 3;
-  .wrapper{
+
+  .wrapper {
     padding: 0 15px;
   }
 
@@ -561,12 +562,20 @@ body {
 
   &__img {
     max-width: 1348px;
+    width: 100%;
+    height: 527px;
     position: absolute;
     z-index: 1;
     right: 0;
     top: 0;
+    background: linear-gradient(360deg, #0B1119 0%, rgba(11, 17, 25, 0) 45.31%), url(../images/get-crypto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 
     img {
+      display: none !important;
       object-fit: cover;
     }
   }
@@ -575,8 +584,9 @@ body {
 .footer {
   background: #0B111A;
   color: #fff;
-  .wrapper{
-    padding: 0 ;
+
+  .wrapper {
+    padding: 0;
   }
 
   &-top {
@@ -910,9 +920,10 @@ body {
   }
 
   .footer {
-    .wrapper{
+    .wrapper {
       padding: 0 19px;
     }
+
     &-top {
       padding: 30px 12px;
       gap: 8px;
@@ -1131,6 +1142,11 @@ body {
     &__img {
       height: 313px;
       max-width: 550px;
+      background: linear-gradient(90deg, #0B1119 0%, rgba(11, 17, 25, 0) 20.98%), linear-gradient(270deg, #0B1119 0%, rgba(11, 17, 25, 0) 21.03%), url(../images/get-crypto.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
     }
 
     &__left {
@@ -1456,10 +1472,18 @@ body {
     &__img {
       width: 100%;
       height: 260px;
+      background: linear-gradient(360deg, #0B1119 0%, rgba(11, 17, 25, 0) 45.31%), url(../images/get-crypto-2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 
       img {
+        display: none;
         object-fit: cover;
-        object-position: 85% top;
+
+        &.mobile {
+          display: block;
+        }
       }
     }
   }
